@@ -1,0 +1,132 @@
+[
+{
+    "model": "mypedia.course",
+    "pk": 1,
+    "fields": {
+        "name": "Математика",
+        "preview": "",
+        "description": "Очень интересный курс",
+        "owner": null,
+        "updated_at": "2025-01-27T10:29:32.295Z"
+    }
+},
+{
+    "model": "mypedia.course",
+    "pk": 3,
+    "fields": {
+        "name": "Физика",
+        "preview": "",
+        "description": "Тест отправки уведомления",
+        "owner": 15,
+        "updated_at": "2025-01-27T13:48:43.905Z"
+    }
+},
+{
+    "model": "mypedia.lesson",
+    "pk": 1,
+    "fields": {
+        "name": "Математика 1",
+        "preview": "",
+        "description": "Первый урок по математике",
+        "video_link": "",
+        "course": 1,
+        "owner": null,
+        "updated_at": "2025-01-27T10:29:32.304Z"
+    }
+},
+{
+    "model": "mypedia.lesson",
+    "pk": 4,
+    "fields": {
+        "name": "Математика 2",
+        "preview": "",
+        "description": "Второй урок по математике",
+        "video_link": "",
+        "course": 1,
+        "owner": null,
+        "updated_at": "2025-01-27T10:29:32.304Z"
+    }
+},
+{
+    "model": "mypedia.lesson",
+    "pk": 5,
+    "fields": {
+        "name": "Физика 1",
+        "preview": "",
+        "description": "Первый урок по физике",
+        "video_link": null,
+        "course": 3,
+        "owner": 15,
+        "updated_at": "2025-01-27T10:29:32.304Z"
+    }
+},
+{
+    "model": "mypedia.lesson",
+    "pk": 7,
+    "fields": {
+        "name": "Физика 2",
+        "preview": "",
+        "description": "Второй урок по физике",
+        "video_link": null,
+        "course": 3,
+        "owner": 15,
+        "updated_at": "2025-01-27T10:29:32.304Z"
+    }
+},
+{
+    "model": "mypedia.lesson",
+    "pk": 8,
+    "fields": {
+        "name": "Математика 3",
+        "preview": "",
+        "description": "Третий урок по математике",
+        "video_link": null,
+        "course": null,
+        "owner": 5,
+        "updated_at": "2025-01-27T10:29:32.304Z"
+    }
+},
+{
+    "model": "mypedia.lesson",
+    "pk": 9,
+    "fields": {
+        "name": "Физика 3",
+        "preview": "",
+        "description": "Третий урок по физике",
+        "video_link": null,
+        "course": 3,
+        "owner": 5,
+        "updated_at": "2025-01-27T13:54:15.391Z"
+    }
+},
+{
+    "model": "mypedia.subscription",
+    "pk": 1,
+    "fields": {
+        "is_active": true,
+        "owner": 15,
+        "course": 1,
+        "created_at": "2025-01-15"
+    }
+},
+{
+    "model": "mypedia.subscription",
+    "pk": 2,
+    "fields": {
+        "is_active": true,
+        "owner": 16,
+        "course": 3,
+        "created_at": "2025-01-15"
+    }
+},
+{
+    "model": "mypedia.subscription",
+    "pk": 3,
+    "fields": {
+        "is_active": true,
+        "owner": 15,
+        "course": 3,
+        "created_at": "2025-01-16"
+    }
+}
+]
